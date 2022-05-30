@@ -21,7 +21,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const movies = this.getMoviesFromApiAsync();
+    const movies = this.getMoviesFromApiAsync;
   }
   _onPressText() {
     alert('点击成功');
